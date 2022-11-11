@@ -1,46 +1,5 @@
-"""
-MOCK ALKALINE TRIO DRAFT NOTES
-"""
-x Set up virtual env and git hub
-"""
-
-"""
-What we are building: a mock version of the draft where players can enter the number of players, player names, and watch a line by line simulation of the As You Were Alkaline Trio draft run on the command line.
-
-    "How many playing?: [4]"
-    "Player 1 Name: [Tim]"
-    "Player 2 Name: [David]"
-    "Player 3 Name: [Jeremy]"
-    "Player 4 Name: [Jim]"
-
-    "The draft order will be:"
-    "[player] will be picking [draft_no]"
-
-    Each round:
-
-        "With the [draft_no] pick, for the [category] [player] selects [song]" (4)
-
-        "Here is the draft board after [round_no.]:"
-        
-        |||
-        ||| PICK NO.  |  SONG  | CHOSEN BY |  CATEGORY  |
-        ||| [pick_no] | [song] |  [player] | [category] |
-        ||| [pick_no] | [song] |  [player] | [category] |
-        ||| [pick_no] | [song] |  [player] | [category] |
-        ||| [pick_no] | [song] |  [player] | [category] |
-
-
-"""
-Each song has a category, each player must select a song from a specific category. 
-
-Categories = [7]
-Category = [3]
-
-Rounds 1-2 Category.random(choice).category[0].random(choice)
-    end of Round 2 pop any values from category[0] to category[1]
-Rounds 3-5 category[1].random(choice)
-    end of Round 5 pop any values from category[1] to category[2]
-Rounds 6-7 category[2].random(choice)
+# ignore all text files
+*.txt
 
 
 
