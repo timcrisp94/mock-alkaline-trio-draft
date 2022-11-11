@@ -1,1 +1,3 @@
-print("sanity check")
+from data import songs_list
+
+print(songs_list)
