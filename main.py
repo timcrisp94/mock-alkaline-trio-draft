@@ -20,5 +20,5 @@ def play_round():
         pick_random_song(p)
 
 
-print("Welcome to the draft")
+print("Welcome to the draft, sluts")
 play_round()
